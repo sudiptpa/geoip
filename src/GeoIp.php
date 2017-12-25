@@ -3,8 +3,7 @@
 namespace Sujip\GeoIp;
 
 /**
- * Class GeoIp
- * @package App
+ * Class GeoIp.
  */
 class GeoIp
 {

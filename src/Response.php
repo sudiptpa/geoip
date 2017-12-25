@@ -7,7 +7,6 @@ namespace Sujip\GeoIp;
  */
 class Response
 {
-
     /**
      * @var mixed
      */
