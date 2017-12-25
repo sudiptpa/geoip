@@ -5,7 +5,7 @@ namespace Sujip\GeoIp\Exception;
 use Exception;
 
 /**
- * Class Forbidden
+ * Class Forbidden.
  */
 class Forbidden extends Exception
 {

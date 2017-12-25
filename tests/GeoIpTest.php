@@ -8,7 +8,7 @@ use Sujip\GeoIp\GeoIp;
 use Sujip\GeoIp\Response;
 
 /**
- * Class GeoIpTest
+ * Class GeoIpTest.
  */
 class GeoIpTest extends TestCase
 {
@@ -19,7 +19,7 @@ class GeoIpTest extends TestCase
 
     public function setUp()
     {
-        $this->payload = file_get_contents(__DIR__ . '/Mock/Response/response.json');
+        $this->payload = file_get_contents(__DIR__.'/Mock/Response/response.json');
     }
 
     public function tearDown()

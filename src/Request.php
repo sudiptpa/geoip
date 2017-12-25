@@ -34,7 +34,7 @@ class Request
 
         try {
             $response = file_get_contents(
-                sprintf("http://freegeoip.net/json/%s", $this->ip)
+                sprintf('http://freegeoip.net/json/%s', $this->ip)
             );
         } catch (Exception $e) {
             $this->throwException('Forbidden', 403);
