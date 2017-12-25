@@ -1,0 +1,38 @@
+{
+   "name":"sudiptpa/geoip",
+   "type":"library",
+   "description":"A simple IP to Geo Location implementation library.",
+   "keywords":[
+      "geoip",
+      "ip to location"
+   ],
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"Sujip Thapa",
+         "email":"sudiptpa@gmail.com"
+      }
+   ],
+   "require":{
+      "php": "~7.0"
+   },
+   "require-dev":{
+      "friendsofphp/php-cs-fixer":"~2.0",
+      "mockery/mockery": "^0.9.4",
+      "phpunit/phpunit": "~6.0"
+   },
+   "extra":{
+      "branch-alias":{
+         "dev-master":"1.0.x-dev"
+      }
+   },
+   "autoload":{
+      "psr-4":{
+         "Sujip\\GeoIp\\":"src/"
+      }
+   },
+   "scripts": {
+      "test": "vendor/bin/phpunit",
+      "fix": "vendor/bin/php-cs-fixer fix"
+   }
+}
