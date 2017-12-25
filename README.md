@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/sudiptpa/geoip.svg?branch=master)](https://travis-ci.org/sudiptpa/geoip)
 [![StyleCI](https://styleci.io/repos/115319108/shield?branch=master)](https://styleci.io/repos/115319108)
+[![Latest Stable Version](https://poser.pugx.org/sudiptpa/geoip/v/stable)](https://packagist.org/packages/sudiptpa/geoip)
+[![Total Downloads](https://poser.pugx.org/sudiptpa/geoip/downloads)](https://packagist.org/packages/sudiptpa/geoip)
+[![License](https://poser.pugx.org/sudiptpa/geoip/license)](https://packagist.org/packages/sudiptpa/geoip)
 
 http://freegeoip.net provides a public HTTP API for software developers to search the geolocation of IP addresses. It uses a database of IP addresses that are associated to cities along with other relevant information like time zone, latitude and longitude.
 
