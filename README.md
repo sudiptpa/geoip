@@ -1,5 +1,7 @@
 This package is abandoned and no longer maintained. The author suggests using the https://github.com/sudiptpa/ipstack package instead.
 
+[The old freegeoip API is now deprecated and will be discontinued on July 1st, 2018]
+
 ## A simple implementation for IP to Location with http://freegeoip.net an open source platform.
 
 [![Build Status](https://travis-ci.org/sudiptpa/geoip.svg?branch=master)](https://travis-ci.org/sudiptpa/geoip)
