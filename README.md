@@ -1,3 +1,5 @@
+This package is abandoned and no longer maintained. The author suggests using the https://github.com/sudiptpa/ipstack package instead.
+
 ## A simple implementation for IP to Location with http://freegeoip.net an open source platform.
 
 [![Build Status](https://travis-ci.org/sudiptpa/geoip.svg?branch=master)](https://travis-ci.org/sudiptpa/geoip)
