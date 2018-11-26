@@ -16,11 +16,17 @@ class Request
     protected $ip;
 
     /**
+     * @var string
+     */
+    protected $key;
+
+    /**
      * @param $ip
      */
-    public function __construct($ip = null)
+    public function __construct($ip = null, $key)
     {
         $this->ip = $ip;
+        $this->key = env('KEY'); //Please, configure your on .env file
     }
 
     /**
@@ -34,7 +40,7 @@ class Request
 
         try {
             $response = file_get_contents(
-                sprintf('http://freegeoip.net/json/%s', $this->ip)
+                sprintf('http://api.ipstack.com/%s?access_key=%s', $this->ip, $this->key)
             );
         } catch (Exception $e) {
             $this->throwException('Forbidden', 403);
